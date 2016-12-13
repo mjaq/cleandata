@@ -1,5 +1,7 @@
 library(reshape2)
 filename(cloudfront.net/Dataset.zip)
+#set working directory to the location where the UCI edu Dataset was unzipped
+setwd('/Users/mjaq/Documents/UCI edu Dataset/');
 
 Labels( topfeatures, cloudfront, UCI edu/ml)
 ## Download and unzip the dataset:
