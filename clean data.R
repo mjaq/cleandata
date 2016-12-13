@@ -1,5 +1,10 @@
+
+# runAnalysis.r File Description:
+("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ")
 library(reshape2)
-filename(cloudfront.net/Dataset.zip)
+filename(cloudfront.net/Dataset.zip )
+
+
 #set working directory to the location where the UCI edu Dataset was unzipped
 setwd('/Users/mjaq/Documents/UCI edu Dataset/');
 
