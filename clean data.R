@@ -11,7 +11,8 @@ if (!file.exists(filename)){
 }  
 if (!file.exists("UCI edu/ml datasets")) { 
   unzip(filename) 
-}# Load train and test datasets
+}
+# Load train and test datasets
 train <- read.table("UCI edu/ml Dataset/train/X_train.txt")[featuresWanted]
 trainActivities <- read.table("UCI edu/ml Dataset/train/Y_train.txt")
 trainSubjects <- read.table("UCI edu/ml Dataset/train/subject_train.txt")
